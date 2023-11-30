@@ -1,5 +1,5 @@
 import React from 'react'
-import './navbar.css'
+import './navbar.scss'
 
 import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
