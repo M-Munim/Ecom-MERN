@@ -18,9 +18,93 @@
 
         .productImg {
             .productMainImg {
-             width: 416px;
-             height: 520px;   
+                width: 416px;
+                height: 520px;
             }
         }
     }
+
+    .productRight {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            color: #3d3d3d;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .productRightStars {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            gap: 3px;
+            color: #1c1c1c;
+            font-style: 14px;
+        }
+
+        .productRightPrices {
+            display: flex;
+            margin: 20px 0px;
+            gap: 20px;
+            font-style: 20px;
+            font-weight: 700;
+
+            .productRightPriceOld {
+                color: #818181;
+                text-decoration: line-through;
+            }
+
+            .productRightPriceNew {
+                color: #ff4141;
+            }
+        }
+
+        .productRightSize {
+            h1 {
+                margin-top: 20px;
+                color: #656565;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .productRightSizes {
+                display: flex;
+                gap: 15px;
+                margin: 20px 0px;
+
+                div {
+                    padding: 10px 20px;
+                    background: #fbfbfb;
+                    border: 1px solid #ebebeb;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+
+        button{
+            padding: 15px 30px;
+            width: 160px;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            background: #ff4141;
+            margin-bottom: 30px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .productRightCategory{
+            margin-top: 10px;
+            span{
+                font-weight: 600;
+            }
+        }
+    }
+
 }

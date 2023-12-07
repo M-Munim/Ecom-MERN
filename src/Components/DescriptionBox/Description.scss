@@ -1,0 +1,33 @@
+.descriptionBox {
+    margin: 100px 130px;
+
+    .descNavigator {
+        display: flex;
+
+        .descNavBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+            width: 151px;
+            height: 50px;
+            border: 1px solid #d0d0d0;
+
+        }
+
+        .fade {
+            background: #fbfbfb;
+            color: #555;
+        }
+    }
+
+    .descDesc {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: 1px solid #d0d0d0;
+        padding: 30px 48px;
+        margin: 10px 0px;
+    }
+}
