@@ -1,0 +1,110 @@
+.cartItems {
+    margin: 80px 150px;
+
+    hr {
+        height: 3px;
+        background: #e2e2e2;
+        border: 0;
+    }
+
+    .cartItemsFormatMain {
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 65px;
+        padding: 20px 0px;
+        color: #454545;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .cartItemsFormat {
+        font-size: 17px;
+        font-weight: 500;
+
+        .cartIconProductIcon {
+            height: 60px;
+        }
+
+        .cartItemsQuantity {
+            width: 54px;
+            height: 46px;
+            border: 2px solid #ebebeb;
+            background-color: #fff;
+        }
+
+        .cartItemsRemoveIcon {
+            width: 15px;
+            margin: 0px 35px;
+            cursor: pointer;
+        }
+    }
+
+    .cartItemsDown {
+        display: flex;
+        margin: 90px 0px;
+
+        .cartItemsTotal {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            margin-right: 120px;
+            gap: 30px;
+
+            .cartItemsTotalItem {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 0px;
+            }
+
+            button {
+                width: 212px;
+                height: 58px;
+                outline: none;
+                border: none;
+                background: #ff5a5a;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+
+        .cartItemsPromocode {
+            flex: 1;
+            font-size: 16px;
+            font-weight: 500;
+
+            p {
+                color: #555;
+            }
+
+            .cartItemsPromoBox {
+                width: 490px;
+                margin-top: 10px;
+                padding-left: 10px;
+                height: 50px;
+                background: #eaeaea;
+
+                input {
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    font-size: 16px;
+                    width: 340px;
+                    height: 40px;
+                }
+
+                button {
+                    width: 150px;
+                    height: 50px;
+                    font-size: 16px;
+                    background: black;
+                    color: #fff;
+                    cursor: pointer;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
